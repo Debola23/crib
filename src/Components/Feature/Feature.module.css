@@ -1,0 +1,44 @@
+.feature{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: 5rem;
+}
+#sh{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+#h5{
+    font-weight: 600;
+    color: red;
+}
+#fbox{
+    margin-top: 1.5rem;
+}
+#fLink{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 570px) {
+    #h{
+        font-size: 1.3rem;
+    }
+    #num{
+        font-size: 1.097rem;
+    }
+    #deet{
+        font-size: 0.876rem;
+    }
+}
+
+@media (max-width: 488px) {
+    #h5{
+        font-weight: 600;
+        color: red;
+        font-size: 1rem;
+    }
+    #sh{
+        font-size: 1.5rem;
+    }
+}

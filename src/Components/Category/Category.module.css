@@ -1,0 +1,174 @@
+.category{
+    margin-top: 5rem;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#mt{
+    margin-top: 2.5rem;
+}
+#cpic1{
+    background-image: url("/Images/aptimg.jpg");
+    position: relative;
+    height: 310px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+#cpic2{
+    background-image: url("/Images/condoimg.jpg");
+    position: relative;
+    height: 310px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+#cpic3{
+    background-image: url("/Images/houseimg.jpg");
+    position: relative;
+    height: 310px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+#cpic4{
+    background-image: url("/Images/houseimg.jpg");
+    position: relative;
+    height: 310px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+#cpic4{
+    background-image: url("/Images/spaceimg.jpeg");
+    position: relative;
+    height: 310px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+#cpic5{
+    background-image: url("/Images/land.jpg");
+    position: relative;
+    height: 310px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+#barnerinfo{
+    color: white;
+}
+#sh{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+#h5{
+    font-weight: 600;
+    color: red;
+}
+#cbtn{
+    background-color:red;
+    padding: 3px 15px;
+    color:white;
+    border-radius: 25px;
+    text-decoration: none;
+}
+.cbtn{
+    background-color:red;
+    padding: 3px 15px;
+    color:white;
+    border-radius: 25px;
+    text-decoration: none;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+@media (max-width: 788px) {
+    #mtt{
+        margin-top: 2.5rem;
+    }
+   
+}
+
+@media (max-width: 488px) {
+    #mt{
+        margin-top: 2.5rem;
+    }
+    #h5{
+        font-weight: 600;
+        color: red;
+        font-size: 1rem;
+    }
+    #sh{
+        font-size: 1.5rem;
+    }
+}

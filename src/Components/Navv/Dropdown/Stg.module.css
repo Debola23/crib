@@ -1,0 +1,19 @@
+#st2{
+    display: none;
+}
+#ntd{
+    text-decoration: none;
+    color: initial;
+}
+#ntd:hover{
+    color: white;
+}
+@media screen and (max-width: 991px) {
+    #st1{
+        display: none;
+    }
+    #st2{
+        display: block;
+        z-index: 9999;
+    }
+}

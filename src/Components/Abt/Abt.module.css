@@ -1,0 +1,54 @@
+.Abt{
+  padding-top: 186px;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+#abtimg{
+    height: 42rem;
+}
+#hh{
+    font-weight: 600;
+    margin-top: -3.4rem;
+    color: red;
+}
+#abth1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+
+}
+#abtp1{
+    color: rgb(159 159 159);
+    margin-bottom: 4rem;
+}
+#abtPoints{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+@media (max-width: 998px) {
+    #hh {
+        font-weight: 600;
+        margin-top: 2.6rem;
+        color: red;
+    }
+}
+@media (max-width: 640px) {
+    #hh{
+        font-size: 14px;
+    }
+    #abth1{
+        font-size: 22px;
+    }
+    #abtp1{
+        font-size: 14px;
+    }
+    #abtPoints{
+        font-size: 1.216rem;
+        font-weight: 700;
+    }
+}
+
+

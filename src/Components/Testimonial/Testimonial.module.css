@@ -1,0 +1,52 @@
+.Testimonial{
+    margin-top: 5rem;
+}
+
+#sh{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+#h5{
+    font-weight: 600;
+    color: red;
+}
+.testi{
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -38px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+@media (max-width: 840px) {
+    .testi{
+        margin-top: 6rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+@media (max-width: 800px) {
+    .testi {
+      margin-top: 6rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+}
+@media (max-width: 488px) {
+    #h5{
+        font-weight: 600;
+        color: red;
+        font-size: 1rem;
+    }
+    #sh{
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,91 @@
+#hero{
+    padding: 0px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}
+#ht{
+    padding-left: 63px;
+    margin-top: -83px;
+}
+#p1{
+    justify-content: flex-start;
+}
+#p2{
+    text-align: start;
+    font-weight: 800;
+    font-size: 3rem;
+}
+#p3{
+    text-align: start;
+}
+.hb{
+    text-decoration: none;
+    color: white;
+}
+@media (max-width: 1024px) {
+    #hero{
+        flex-direction: column;
+        margin-top: 10rem;
+    }
+}
+@media (max-width: 1024px) {
+    #heroimg{
+        max-width: 35rem;
+        max-height: 30rem;
+    }
+}
+@media (max-width: 581px) {
+    #heroimg{
+     max-width: 30rem;
+     max-height: 25rem;
+    }
+    #ht{
+        padding: 0px;
+    }
+}
+@media (max-width: 465px) {
+    #heroimg{
+     max-width: 25rem;
+     max-height: 23.5rem;
+    }
+    #p2{
+        text-align: start;
+        font-weight: 800;
+        font-size: 2rem;
+    }
+    #btn1{
+        width: 19rem;
+        flex-direction: row;
+    } #bth{
+        justify-content: flex-start;
+    }
+    #ht{
+        padding-left: 10px;
+    }
+    #b1 , #btn2{
+        font-size: 12px;
+    }
+}
+@media (max-width: 395px) {
+    #heroimg{
+     max-width: 18rem;
+     max-height: 15rem;
+    }
+    #p2{
+        text-align: start;
+        font-weight: 800;
+        font-size: 1.5rem;
+    }
+    #btn1{
+        width: 19rem;
+   
+    }
+    #bth{
+        gap: 1rem;
+    }
+    #b1 , #btn2{
+        font-size: 12px;
+    }
+}

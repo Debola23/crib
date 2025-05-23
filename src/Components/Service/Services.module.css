@@ -1,0 +1,138 @@
+.service{
+    padding-top: 110px;
+    margin-bottom: 5rem;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#sh{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+#h5{
+    font-weight: 600;
+    color: red;
+}
+#serviceBox{
+    margin-top: 20px;
+}
+ 
+.card {
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(149, 149, 149, 0.2);
+  }
+  
+  .card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background: rgb(247, 247, 247);
+  }
+  .firstContent, .secondContent {
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
+  .firstContent {
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    border-radius: 15px;
+  }
+  
+  .card:hover .firstContent {
+    height: 0px;
+    opacity: 0;
+  }
+  
+  .secondContent {
+    height: 0%;
+    width: 100%;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: all 0.4s;
+    transform: rotate(90deg) scale(-1);
+    flex-direction: column;
+    background: white;
+    color: red;
+    display: none;
+  }
+  
+  
+  .card:hover .secondContent {
+    opacity: 1;
+    height: 100%;
+    font-size: 1.3rem;
+    transform: rotate(0deg);
+    display: flex;
+  }
+  .actionBtn {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .actionBtn:hover {
+    background-color: #e34d2f;
+  }
+
+#sd{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 14px;
+}
+#sb{
+    width: 9rem;
+    font-size: 14px;
+}
+
+@media (max-width: 788px) {
+ 
+    #sd{
+        font-size: 0.965rem;
+        font-weight: 600;
+        padding: 8px;
+    }
+  }
+  @media (max-width: 688px) {
+    #cd{
+        width: 70%;
+    }
+    #sd{
+        font-size:  0.895rem;
+        font-weight: 600;
+        padding: 5px;
+    }
+  }
+  @media (max-width: 488px) {
+    #h5{
+        font-weight: 600;
+        color: red;
+        font-size: 1rem;
+    }
+    #sh{
+        font-size: 1.5rem;
+    }
+    #sd{
+        font-size:  0.765rem;
+        font-weight: 600;
+        padding: 5px;
+    }
+}

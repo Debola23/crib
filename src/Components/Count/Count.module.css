@@ -1,0 +1,35 @@
+#count{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#num{
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 1.8rem;
+}
+#cdeet{
+    font-size: 1.045rem;
+    font-weight: 400;
+    color: rgb(99, 99, 99);
+}
+@media (max-width: 1024px) {
+  
+}
+@media (max-width: 624px) {
+    #num{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1.8rem;
+    }
+    #cdeet{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 464px) {
+    #cdeet{
+        font-size: 1rem;
+    }
+}

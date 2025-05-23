@@ -1,0 +1,10 @@
+.navv{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#link{
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+}
