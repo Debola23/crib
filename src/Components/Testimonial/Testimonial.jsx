@@ -10,7 +10,7 @@ export const Testimonial = () => {
         dots: true,
         arrows: false,
         infinite: true,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 4000,
         speed: 600,
         slidesToShow: 4,

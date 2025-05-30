@@ -34,7 +34,6 @@ export const Searchbox = ({ onFilter }) => {
             className="w-full border border-gray-300 p-3 text-sm rounded-md focus:outline-none"
           >
             <option value="">Property Type</option>
-            <option value="house">House</option>
             <option value="apartment">Apartment</option>
             <option value="duplex">Duplex</option>
             <option value="land">Land</option>

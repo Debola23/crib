@@ -11,7 +11,7 @@ import { Barner2 } from '../../Components/Barner/Barner2';
 const houses = [
   {
     id: 1,
-    type: "house",
+    type: "duplex",
     location: "Lekki Admiralty Way, Lagos",
     bedrooms: "5",
     image: "/Images/residency2.jpg",
@@ -97,7 +97,7 @@ const houses = [
   },
   {
     id: 9,
-    type: "house",
+    type: "duplex",
     location: "Gwarimpa 7th Avenue, Abuja",
     bedrooms: "6",
     image: "/Images/house4.jpg",
@@ -108,7 +108,7 @@ const houses = [
   },
   {
     id: 10,
-    type: "house",
+    type: "duplex",
     location: "Gwarimpa 7th Avenue, Abuja",
     bedrooms: "6",
     image: "/Images/house5.webp",

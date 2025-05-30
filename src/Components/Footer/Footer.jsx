@@ -34,7 +34,7 @@ export const Footer = () => {
                 <ul className="space-y-2 text-gray-400">
                   <li>About</li>
                   <li>Blog</li>
-                  <li>All Products</li>
+                  <li>Properties</li>
                   <li>Contact</li>
                   <li>FAQ</li>
                   <li>Contact us</li>
@@ -99,7 +99,7 @@ export const Footer = () => {
         <div className={Styles.cont}>  
           <div className={Styles.underBox}>
             <div className=''>
-              All Rights Reserved @ Company 2025
+              All Rights Reserved @Crib 2025
             </div>
 
             <div className='' id={Styles.lr}>

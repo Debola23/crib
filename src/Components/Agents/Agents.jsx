@@ -1,8 +1,5 @@
 import Styles from './Agents.module.css'
 
-
-
-
 const agent = [
   {
     id: 1,
